@@ -1,4 +1,4 @@
-#Loops
+# Loops
 
 mi_lista = [1,2,3,4,5]
 
@@ -14,10 +14,25 @@ for i in range(2, 9):
     print(i)
 
 
-mi_lista_2 = ["lunes", "martes", "miercoles", "jueves", "viernes"]
+mi_lista_2 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
 
 for i in mi_lista_2:
-    if i != "lunes":
+    if i != "Lunes":
         print(f"Feliz {i}!")
-        
+
+# While Loop
+i = 0
+
+while i <5:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
+    if i == 4:
+        break
+
+else:
+    print("i es ahora mayor o igual a 5")
+
+
 
