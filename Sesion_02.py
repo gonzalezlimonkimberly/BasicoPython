@@ -10,7 +10,7 @@ print("El tercer elemento de mi lista :" , mi_lista[2])
 
 #Diccionarios
 mi_diccionario = {"mi_lista": mi_lista,
-                  "Nombre": "Karla",
+                  "Nombre": "Kimberly",
                   "Pi": 3.1416,
                   "Tel": "664-3452367"}
 print("Llave para accesar a mi diccionario mi_lista", mi_diccionario["mi_lista"])
