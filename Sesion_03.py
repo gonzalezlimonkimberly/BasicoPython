@@ -14,7 +14,7 @@ for i in range(2, 9):
     print(i)
 
 
-mi_lista_2 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
+mi_lista_2 = ["Lunes", "Martes", "miercoles", "Jueves", "Viernes"]
 
 for i in mi_lista_2:
     if i != "Lunes":
@@ -32,7 +32,7 @@ while i <5:
         break
 
 else:
-    print("i es ahora mayor o igual a 5")
+    print("i es ahoraaaa mayoooor o igual a 5")
 
 
 # Practica 2
